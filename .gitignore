@@ -1,0 +1,13 @@
+
+gold/*
+
+test/test_file_list.txt
+test/test_ann/*
+test/test_norm_cui_replaced_with_unk/*
+test/test_note/*
+
+train/train_file_list.txt 
+train/train_norm.txt 
+train/train_ann/*
+train/train_norm/*
+train/train_note/*
