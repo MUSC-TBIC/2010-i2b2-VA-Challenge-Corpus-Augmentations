@@ -6,10 +6,12 @@ name.  These laboratory test values are also linked through annotation
 relations with their respective laboratory test name.
 
 Due to the conditions of the data use agreement (DUA) of the original
-corpus, we cannot provide the annotations themselves. Those are only
-available via Harvard Medical School's Department of Biomedical
-Informatics (DBMI) `data portal
-<https://portal.dbmi.hms.harvard.edu/data-sets/>`_.
+corpus, you are accessing these annotations via Harvard Medical
+School's Department of Biomedical Informatics (DBMI) `data portal
+<https://portal.dbmi.hms.harvard.edu/data-sets/>`_. This documentation
+for these annotations (but not the annotations themselves) is
+replicated in the following repository:
+https://github.com/MUSC-TBIC/2010-i2b2-VA-Challenge-Corpus-Augmentations
 
 Annotation Process
 ==================
@@ -47,11 +49,11 @@ potential laboratory test values. The first search criteria to succeed
 was treated as the primary laboratory test value to associate with a
 given laboratory test name. The three search criteria were:
 
-1. the nearest numeric expression (e.g., "10,000”, “30%”) up to fifty
+1. the nearest numeric expression (e.g., '10,000', '30%') up to fifty
    characters after a concept
 2. the nearest numeric expression up to 10 characters before the
    concept
-3. the closest categorical value (e.g., “positive” or “normal”) up to
+3. the closest categorical value (e.g., 'positive' or 'normal') up to
    fifty characters away
 
 These automatically discovered laboratory test values (and their
@@ -97,7 +99,7 @@ Links
 - This documentation for these annotations (but not the annotations themselves) is replicated in the following repository:  https://github.com/MUSC-TBIC/2010-i2b2-VA-Challenge-Corpus-Augmentations
 - Supplemental script repository (within the ``n2c2`` subdirectory):  https://github.com/MUSC-TBIC/corpus-utils 
 - Original challenge overview page:  `2019 n2c2 Shared-Task and Workshop Track 3: n2c2/UMass Track on Clinical Concept Normalization <https://n2c2.dbmi.hms.harvard.edu/track3>`_
-- Data page: `n2c2 2019 — Track 3: Clinical Concept Normalization <https://portal.dbmi.hms.harvard.edu/projects/n2c2-2019-t3/>`_
+- Data page: `n2c2 2019 - Track 3: Clinical Concept Normalization <https://portal.dbmi.hms.harvard.edu/projects/n2c2-2019-t3/>`_
 
 
 References
@@ -116,4 +118,4 @@ Biomedical Informatics. 2019 Feb 22:103132.
 concepts, assertions, and relations in clinical text
 <https://doi.org/10.1136/amiajnl-2011-000203>`_, Journal of the
 American Medical Informatics Association, Volume 18, Issue 5,
-September 2011, Pages 552–556.
+September 2011, Pages 552-556.
