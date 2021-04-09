@@ -65,10 +65,10 @@ is no inter annotator agreement.
 Directory Structure
 ===================
 
-The abstract and poster for Heider et al. [1] is included in the
-``docs`` folder. (The two other publications, which document the corpus
-creation process of the antecedent versions, can be retrieved via the
-provided links.)
+The abstract for Heider et al. [1] is included in the ``docs`` folder.
+(The two other publications, which document the corpus creation
+process of the antecedent versions, can be retrieved via the provided
+links.)
 
 The notes (and annotations) have been split into a 50/50 train/test
 split as per Luo et al.'s [2] corpus. The original notes (in plain
